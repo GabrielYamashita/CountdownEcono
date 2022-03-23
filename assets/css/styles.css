@@ -27,8 +27,8 @@ ul.countdown li span {
   font-weight: 712;
   line-height: 80px;
   padding: 0px 55px;
-  border-top: 3px solid rgb(211, 29, 42);
-  border-bottom: 3px solid rgb(211, 29, 42);
+  border-top: 3px solid rgb(0, 0, 0);
+  border-bottom: 3px solid  rgb(0, 0, 0);
   margin-left: -4px;
 }
 
@@ -40,11 +40,11 @@ ul.countdown li p {
 }
 
 .days {
-  background-color: rgb(211, 29, 42);
+  background-color: rgb(0, 0, 0);
   padding: 0 10px;
   color: rgb(fff);
 }
-.last { border-right: 3px solid rgb(211, 29, 42); }
+.last { border-right: 3px solid rgb(0, 0, 0); }
 
 .img-fundo {
   width: 100%;
