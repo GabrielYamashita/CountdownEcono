@@ -1,0 +1,73 @@
+/* @import url('http://fonts.cdnfonts.com/css/cooper-hewitt'); */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #cccccc; /*cor número*/
+  font: normal 14px 'Oswald', sans-serif;
+  font-weight: 706;
+  background: rgb(236,35,53);
+}
+
+ul.countdown {
+  list-style: none;
+  margin: 70px 0;
+  padding: 0;
+  display: block;
+  text-align: center;
+}
+
+ul.countdown li { display: inline-block; }
+
+ul.countdown li span {
+  font-size: 125px;
+  font-weight: 712;
+  line-height: 80px;
+  padding: 0px 55px;
+  border-top: 3px solid rgb(211, 29, 42);
+  border-bottom: 3px solid rgb(211, 29, 42);
+  margin-left: -4px;
+}
+
+ul.countdown li p {
+  color: #ffffff; /*cor dia/horas/minutos/segundos*/
+  font-size: 55px;
+  text-transform: uppercase;
+  margin-top: 25px;
+}
+
+.days {
+  background-color: rgb(211, 29, 42);
+  padding: 0 10px;
+  color: rgb(fff);
+}
+.last { border-right: 3px solid rgb(211, 29, 42); }
+
+.img-fundo {
+  width: 100%;
+  margin-bottom: -36rem;
+  opacity: 100%;
+}
+
+.titulo {
+  color: #fff;
+  font-size: 70px;
+  font-weight: 706;
+  margin-top: -15px;
+}
+
+#video {
+  /* background-color: rgb(236,35,53); */
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.body {
+  background-color: rgb(236,35,53);
+}

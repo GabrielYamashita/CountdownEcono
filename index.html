@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Econo - 2022</title>
+	<link href="./assets/css/styles.css" rel="stylesheet" type="text/css" media="all" >
+	<link href="./assets/js/jquery.downCount.js" rel="stylesheet">
+	<link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+	<img class="img-fundo" src="./assets/img/Cópia de banner econo.png">
+	<h1 class="titulo" style="text-align:center">FALTAM</h1>
+	<ul class="countdown">
+		<li>
+			<span class="days">00</span>
+			<p class="days_ref">dias</p>
+		</li>
+		<li>
+			<span class="hours">00</span>
+			<p class="hours_ref">horas</p>
+		</li>
+		<li>
+			<span class="minutes">00</span>
+			<p class="minutes_ref">minutos</p>
+		</li>
+		<li>
+			<span class="seconds last">00</span>
+			<p class="seconds_ref">segundos</p>
+		</li>
+	</ul>
+
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script type="text/javascript" src="./assets/js/jquery.downCount.js"></script>
+	<script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-36251023-1']);
+	  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+	</script>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+	<script type="text/javascript" src="./assets/js/jquery.downCount.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('.countdown').downCount({
+				date: '04/20/2022 00:00:00', /*MES/DIA/ANO*   definição de data pro countdown*/
+		  offset: -3 /*fuso horário do mundo*/
+			});
+		});
+	</script>
+</body>
+</html>
