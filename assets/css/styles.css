@@ -1,6 +1,13 @@
 /* @import url('http://fonts.cdnfonts.com/css/cooper-hewitt'); */
 
+
+
 * {
+  margin: 0;
+  padding: 0;
+}
+
+html {
   margin: 0;
   padding: 0;
 }
@@ -27,8 +34,8 @@ ul.countdown li span {
   font-weight: 712;
   line-height: 80px;
   padding: 0px 55px;
-  border-top: 3px solid rgb(0, 0, 0);
-  border-bottom: 3px solid  rgb(0, 0, 0);
+  border-top: 3px solid rgb(90,3,11);
+  border-bottom: 3px solid  rgb(90,3,11);
   margin-left: -4px;
 }
 
@@ -40,11 +47,11 @@ ul.countdown li p {
 }
 
 .days {
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(90,3,11);
   padding: 0 10px;
   color: rgb(fff);
 }
-.last { border-right: 3px solid rgb(0, 0, 0); }
+.last { border-right: 3px solid rgb(90,3,11); }
 
 .img-fundo {
   width: 100%;
@@ -68,6 +75,47 @@ ul.countdown li p {
   min-height: 100%;
 }
 
-.body {
+/* .body {
   background-color: rgb(236,35,53);
+} */
+
+@media screen and (max-width: 450px) {
+  .titulo {
+    font-size: 35px;
+    margin-top: -70px;
+  }
+
+
+
+  ul.countdown {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 550px;
+
+    margin: 30px 0;
+  }
+
+  ul.countdown li span {
+    font-size: 60px;
+  }
+
+  ul.countdown li p {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+
+
+  ul.countdown li span {
+    border-style: solid;
+    border-width: 0px 0px;
+    border-color: rgb(90,3,11);
+  }
+
+  .last {
+    border-style: solid;
+    border-width: 0px 0px;
+    border-color: rgb(90,3,11);
+  }
+
 }
