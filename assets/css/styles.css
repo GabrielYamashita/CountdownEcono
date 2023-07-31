@@ -68,7 +68,7 @@ ul.countdown li p {
   color: #fff;
   font-size: 70px;
   font-weight: 706;
-  margin-top: 0px;
+  /* margin-top: 0px; */
 }
 
 #video {
@@ -80,9 +80,43 @@ ul.countdown li p {
   min-height: 100%;
 }
 
-/* .body {
-  background-color: rgb(236,35,53);
-} */
+@media (max-width: 910px) {
+  ul.countdown {
+    margin: 55px 0px;
+  }
+
+  ul.countdown li span {
+    font-size: 90px;
+  }
+
+  ul.countdown li p {
+    font-size: 45px;
+    margin-top: 20px;
+  }
+
+  .titulo {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 855px) {
+  ul.countdown {
+    margin: 35px 0px;
+  }
+
+  ul.countdown li span {
+    font-size: 60px;
+  }
+
+  ul.countdown li p {
+    font-size: 30px;
+    margin-top: 5px;
+  }
+
+  .titulo {
+    font-size: 40px;
+  }
+}
 
 @media (max-width: 768px) {
   .container {
