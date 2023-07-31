@@ -11,35 +11,37 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
-	<link rel="icon" type="image/x-icon" href="assets/img/raposa.ico">
+	<link rel="icon" type="image/x-icon" href="./assets/img/raposa.ico">
 </head>
 
 
 <body>
-	<picture>
+	<!-- <picture>
 		<source srcset="./assets/img/econo23retrato.jpeg" media="(max-width: 600px)">
 		<img class="img-fundo" src="./assets/img/econo23paisagem.jpg">	
-	</picture>
+	</picture> -->
 
-	<h1 class="titulo" style="text-align:center">FALTAM</h1>
-	<ul class="countdown">
-		<li>
-			<span class="days">00</span>
-			<p class="days_ref">dias</p>
-		</li>
-		<li>
-			<span class="hours">00</span>
-			<p class="hours_ref">horas</p>
-		</li>
-		<li>
-			<span class="minutes">00</span>
-			<p class="minutes_ref">minutos</p>
-		</li>
-		<li>
-			<span class="seconds last">00</span>
-			<p class="seconds_ref">segundos</p>
-		</li>
-	</ul>
+	<div class="bg">
+		<!-- <h1 class="titulo" style="text-align:center">FALTAM</h1> -->
+		<div class="countdown">
+			<div class="box">
+				<span class="days">00</span>
+				<p class="days_ref">dias</p>
+			</div>
+			<div class="box">
+				<span class="hours">00</span>
+				<p class="hours_ref">horas</p>
+			</div>
+			<div class="box">
+				<span class="minutes">00</span>
+				<p class="minutes_ref">minutos</p>
+			</div>
+			<div class="box">
+				<span class="seconds last">00</span>
+				<p class="seconds_ref">segundos</p>
+			</div>
+		</div>
+	</div>
 
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 	<script type="text/javascript" src="./assets/js/jquery.downCount.js"></script>
