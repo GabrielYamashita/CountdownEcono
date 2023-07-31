@@ -118,7 +118,31 @@ ul.countdown li p {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 670px) {
+  .container {
+    background-image: url('../img/econo23retrato.jpeg');
+  }
+
+  ul.countdown {
+    margin: 20px 0px;
+  }
+
+  ul.countdown li span {
+    font-size: 45px;
+    padding: 0px 40px;
+  }
+
+  ul.countdown li p {
+    font-size: 25px;
+    margin-top: 0px;
+  }
+
+  .titulo {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 470px) {
   .container {
     background-image: url('../img/econo23retrato.jpeg');
   }
